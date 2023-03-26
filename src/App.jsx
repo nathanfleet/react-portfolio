@@ -1,11 +1,11 @@
-import Header from './components/Header';
-import Section from './components/Section';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Section />
+      <Navbar/>
+      <Hero />
     </div>
   )
 }

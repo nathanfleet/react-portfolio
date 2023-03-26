@@ -2,7 +2,7 @@ import { MenuOutlined } from '@material-ui/icons'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Navbar = () => {
   const [active, setActive] = useState(false)
   const showMenu = () => {
     setActive(!active)
@@ -29,4 +29,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Navbar
