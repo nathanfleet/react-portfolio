@@ -3,14 +3,27 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
+
+    screens: {
+      'sm': '320px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+    
     extend: {
-      colors: {
-        primary: "#151030",
-        secondary: "#aaa6c3",
-        tertiary: "#f3f3f3",
-      },
       backgroundImage: {
-        "hero-pattern": "url('src/assets/herobg.png')"
+        "hero-image": 'url("./assets/space.jpeg")'
       }
     },
   },

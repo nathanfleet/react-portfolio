@@ -1,8 +1,12 @@
-import Navbar from "./components/Navbar"
+import Header from './components/Header';
+import Section from './components/Section';
 
-function App() {
+const App = () => {
   return (
-    <Navbar/>
+    <div>
+      <Header/>
+      <Section />
+    </div>
   )
 }
 
