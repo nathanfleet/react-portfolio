@@ -1,8 +1,20 @@
-import Navbar from "./assets/Navbar"
 
-function App() {
+import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+
+const App = () => {
   return (
-    <Navbar/>
+    <BrowserRouter>
+      <div>
+        <div>
+          <Navbar />
+          <Hero />
+        </div>
+        <About />
+      </div>
+    </BrowserRouter>
   )
 }
 
