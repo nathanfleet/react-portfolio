@@ -16,7 +16,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="w-20 h-20 object-contain" />
       </Link>
       <nav>
-        <ul className="hidden md:flex md:gap-8 md:p-6 md:uppercase bg-white/10">
+        <ul className="hidden md:flex md:gap-8 md:p-6 md:uppercase">
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/'>About</Link></li>
           <li><Link to='/'>Projects</Link></li>
