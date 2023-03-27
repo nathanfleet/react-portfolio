@@ -24,7 +24,7 @@ const Navbar = () => {
       <nav>
         <ul className="hidden md:flex md:gap-8 md:p-6 md:uppercase">
           {navLinks.map((link) => (
-            <li key={link.id}>
+            <li key={link.id} className="hover:text-blue-400">
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
@@ -34,7 +34,7 @@ const Navbar = () => {
           <ul className="md:hidden flex-col flex left-1/4 inset-0 fixed uppercase items-center justify-center p-8 backdrop-blur-lg gap-8 bg-black/40">
             <Close onClick={toggleMenu} className="cursor-pointer" />
             {navLinks.map((link) => (
-              <li key={link.id}>
+              <li key={link.id} className="hover:text-blue-400">
                 <a href={`#${link.id}`} onClick={toggleMenu}>
                   {link.title}
                 </a>
