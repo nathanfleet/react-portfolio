@@ -1,14 +1,15 @@
 import React from 'react'
+import { styles } from '../constants'
 
-const Section = () => {
+const Hero = () => {
   return (
-    <div className="bg-hero-image w-full h-screen bg-cover bg-center flex items-center px-4">
-        <div className="uppercase text-white font-extrabold justify-start">
-            <h1 className="text-8xl">Hi, i'm Nathan</h1>
-            <h3>Welcome to my portfolio</h3>
+    <div className="w-full h-screen flex items-center px-4">
+        <div className=" text-white font-extrabold justify-start">
+            <h1 className={styles.headText}>Hi, i'm <span className="text-blue-400">Nathan</span></h1>
+            <h3 className={styles.subText}>Welcome to my portfolio</h3>
         </div>
     </div>
   )
 }
 
-export default Section
+export default Hero
