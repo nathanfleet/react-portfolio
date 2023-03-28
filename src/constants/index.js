@@ -13,21 +13,6 @@ export const navLinks = [
     },
 ];
 
-export const connections = [
-  {
-    title: "gitHub",
-    icon: "gitHub",
-  },
-  {
-    title: "linkedIn",
-    icon: "linkedIn",
-  },
-  {
-    title: "leetCode",
-    icon: "leetCode",
-  },
-];
-
 export const styles = {
   headText:
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
