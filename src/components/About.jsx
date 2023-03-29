@@ -9,25 +9,27 @@ const About = () => {
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <div className="max-w-4xl w-full px-4">
-        <motion.div variants={textVariant()} className="flex flex-col items-left">
+        <motion.div variants={textVariant()} className="flex-col items-left">
           <p className={styles.subText}>Introduction</p>
           <h2 className={styles.headText}>Overview.</h2>
         </motion.div>
 
         <motion.p variants={fadeIn("", "", 0.1, 1)} 
         className='mt-4 text-secondary text-lg max-w-3xl leading-[30px] text-left text-white'>
-          I'm a skilled software developer with experience in TypeScript and JavaScript, 
-          and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner 
-          and collaborate closely with clients to create efficient, scalable, and user-friendly 
-          solutions that solve real-world problems. Let's work together to bring your ideas to life!
+          I'm a computer science student at Kent State University, currently enrolled in the honors 
+          college program. My academic interests lie in programming languages such as Python, JavaScript, 
+          and C++, and I enjoy using them to solve real-world problems. I'm passionate about software 
+          development and continuously strive to enhance my skills through hands-on experience and challenging 
+          coursework. I'm committed to developing innovative solutions that contribute to the betterment of society,
+           and I'm excited about the opportunities that lie ahead as I continue to pursue my academic and professional goals.
         </motion.p>
 
         <div className="flex justify-center mt-4">
         <motion.a
-            href="https://github.com/your-username"
+            href="https://github.com/nathanfleet03"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 2.0, rotate: 360 }}
+            whileHover={{ scale: 1.5, rotate: 360 }}
           >
             <motion.img
               src={ github }
@@ -36,10 +38,10 @@ const About = () => {
             />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/nathan-fleet-555897217/"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 2.0, rotate: 360 }}
+            whileHover={{ scale: 1.5, rotate: 360 }}
           >
             <motion.img
               src={ linkedin }

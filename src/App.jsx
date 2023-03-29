@@ -7,6 +7,7 @@ import About from "./components/About";
 const App = () => {
   return (
     <BrowserRouter>
+    
       <div className="relative z-0 bg-black">
         <div className="bg-hero-image bg-cover bg-no-repeat bg-center">
           <Navbar />
