@@ -13,6 +13,21 @@ export const navLinks = [
     },
 ];
 
+export const projects = [
+  {
+    id: "crypto",
+    title: "Centralized Crypto",
+  },
+  {
+    id: "sneaker",
+    title: "Sneaker Sphere",
+  },
+  {
+    id: "gamma",
+    title: "Physics Ball Game",
+  },
+];
+
 export const styles = {
   headText:
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
