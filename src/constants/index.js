@@ -20,7 +20,7 @@ export const navLinks = [
 export const projects = [
   {
     name: "Centralized Crypto",
-    description: "Centralized crypto is an application that allows users to deposit money into various crypto currency accounts. Users are able to sign up for accounts with the “bank” to begin making transactions. Users are able to make deposits and withdraws from external bank accounts using the self service web application. In addition, users are able to transfer coins to other bank users by providing the application with the other user's account number and an amount.",
+    description: "Centralized Crypto is an application that allows users to deposit money into crypto currency accounts. Users are able to sign up with the “bank” to begin making transactions. Users are able to make deposits/withdraws from external bank accounts using the web application.",
     tags: [
       {
         name: "balsamiq",
@@ -32,7 +32,7 @@ export const projects = [
   },
   {
     name: "Sneaker Sphere",
-    description: "The purpose of the Sneaker Sphere website is to create a marketplace for shoe buyers and sellers. By implementing an SQL database, the website is able to manage all necessary information in one place, allowing for a more efficient and effective platform for shoe buying and selling",
+    description: "The purpose of the Sneaker Sphere website is to create a marketplace for shoe buyers and sellers. By implementing an SQL database, the website is able to manage all necessary information in one place, allowing for a more efficient and effective platform for shoe buying and selling.",
     tags: [
       {
         name: "SQL",
@@ -44,7 +44,7 @@ export const projects = [
   },
   {
     name: "Gamma Physics",
-    description: "This project implements the p5.js library, as well as HTML and CSS to create a fun phsyics based ball game.",
+    description: "This project implements the p5.js library, as well as HTML and CSS to create a fun phsyics based ball game. This game includes different levels, as well as different balls to choose from. The balls come in different shapes and follow different physics rules.",
     tags: [
       {
         name: "JavaScript",
