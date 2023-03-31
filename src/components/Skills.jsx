@@ -12,7 +12,7 @@ import tailwind from '../assets/tech/tailwind.png';
 
 const Skills = () => {
   return (
-    <div className="bg-black text-white h-1/2 flex flex-col items-center justify-center md:h-full">
+    <div className="bg-black text-white h-1/2 flex flex-col items-center justify-center md:h-full mb-80">
       <div className="max-w-4xl w-full px-4">
         <div className="flex-col items-left text-left">
           <p className={styles.subText}>My experience with technologies</p>
