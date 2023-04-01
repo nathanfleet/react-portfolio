@@ -63,7 +63,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden items-center justify-center`}
+      id="contact" className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden items-center justify-center`}
     >
       <div className='flex-[0.75] bg-black p-8 rounded-2xl max-w-4xl w-full px-4 items-left text-left'>
         <p className={styles.subText}>Get in touch</p>

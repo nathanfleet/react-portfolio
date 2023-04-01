@@ -6,7 +6,7 @@ import linkedin from '../assets/linkedin.png';
 
 const About = () => {
   return (
-    <div className="w-full h-screen flex items-center justify-center mb-20">
+    <div id="about" className="w-full h-screen flex items-center justify-center mb-20">
       <div className="max-w-4xl w-full px-4">
         <div className="flex-col items-left">
           <p className={styles.subText}>Introduction</p>
