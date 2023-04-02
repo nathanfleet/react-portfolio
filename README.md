@@ -4,6 +4,8 @@
 
 This is my personal portfolio website that showcases my skills, projects, and experience as a web developer. The website was built using React.js and Tailwind CSS, and is deployed using Vercel.
 
+Visit the website here: [https://www.nathan-fleet.com/](https://www.nathan-fleet.com/)
+
 ## Features
 
 - **Responsive Design**: The website is optimized for all screen sizes, including mobile devices.
