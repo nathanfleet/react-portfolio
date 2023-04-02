@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Tilt from 'react-tilt';
 
 import { styles } from '../constants';
@@ -13,14 +13,12 @@ const ProjectCard = ({
     image,
     source_code_link,
   }) => {
+    const tiltRef = useRef(null);
+
     return (
       <div>
         <Tilt
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450,
-          }}
+          ref={tiltRef}
           className='bg-white p-5 rounded-2xl sm:w-[360px] w-full'
         >
           <div className='relative w-full h-[230px]'>
