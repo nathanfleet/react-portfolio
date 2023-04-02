@@ -24,7 +24,7 @@ const About = () => {
 
         <div className="flex justify-center mt-4">
           <motion.a
-            href="https://github.com/nathanfleet03"
+            href="https://github.com/nathanfleet"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.5, rotate: 360 }}

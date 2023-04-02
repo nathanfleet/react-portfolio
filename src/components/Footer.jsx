@@ -23,7 +23,7 @@ const Footer = () => {
               <motion.img src={linkedin} alt="Linkedin" className="w-10 h-10 mx-2 md:mx-4 cursor-pointer"/>
           </motion.a>
           <motion.a 
-          href="https://github.com/nathanfleet03"
+          href="https://github.com/nathanfleet"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{scale:1.5}}>
