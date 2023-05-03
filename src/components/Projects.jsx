@@ -64,7 +64,7 @@ const ProjectCard = ({
 
 const Projects = () => {
     return (
-        <div id="projects" className="flex flex-col items-center justify-center md:h-full">
+        <div id="projects" className="flex flex-col items-center justify-center md:h-full pt-20">
             <div className="max-w-4xl w-full px-4">
             <div className="flex-col items-left text-left">
             <p className={styles.subText}>My work</p>
