@@ -12,7 +12,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed w-full text-black flex justify-between px-4 items-center bg-white z-50">
+    <div className="fixed w-full text-black font-extrabold flex justify-between px-4 items-center bg-white z-50">
 
       <div className="flex items-center">
       <Link to='/'
@@ -34,7 +34,7 @@ const Navbar = () => {
         </ul>
 
         {active ? (
-          <ul className="md:hidden flex-col flex left-1/4 inset-0 fixed uppercase items-center justify-center p-8 backdrop-blur-lg gap-8 text-white">
+          <ul className="md:hidden flex-col flex left-1/4 inset-0 fixed uppercase items-center justify-center p-8 backdrop-blur-lg gap-8 text-white font-extrabold">
             <Close onClick={toggleMenu} className="cursor-pointer" />
             {navLinks.map((link) => (
               <li key={link.id} className="hover:text-blue-400">

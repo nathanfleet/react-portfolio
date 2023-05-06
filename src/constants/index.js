@@ -23,12 +23,24 @@ export const projects = [
     description: "Centralized Crypto is an application that allows users to deposit money into crypto currency accounts. Users are able to sign up with the “bank” to begin making transactions. Users are able to make deposits/withdraws from external bank accounts using the web application.",
     tags: [
       {
-        name: "balsamiq",
+        name: "Next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hot Toast",
         color: "blue-text-gradient",
       },
     ],
     image: crypto,
-    source_code_link: "https://github.com",
+    source_code_link: "https://github.com/nathanfleet/HIC-Project",
   },
   {
     name: "Sneaker Sphere",
@@ -38,9 +50,17 @@ export const projects = [
         name: "SQL",
         color: "blue-text-gradient",
       },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
     ],
     image: sneaker,
-    source_code_link: "https://github.com",
+    source_code_link: "https://github.com/nathanfleet/sneaker-sphere",
   },
   {
     name: "Gamma Physics",
@@ -60,7 +80,7 @@ export const projects = [
       },
     ],
     image: physics,
-    source_code_link: "https://github.com",
+    source_code_link: "https://github.com/nathanfleet/gamma-physics",
   },
 ];
 

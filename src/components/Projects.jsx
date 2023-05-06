@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import Tilt from 'react-tilt';
 
 import { styles } from '../constants';
-import blackgithub from "../assets/blackgithub.png";
+import github from "../assets/github.png";
 
 import { projects } from '../constants';
 
@@ -34,7 +34,7 @@ const ProjectCard = ({
                 className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <img
-                  src={blackgithub}
+                  src={github}
                   alt='source code'
                   className='w-1/2 h-1/2 object-contain'
                 />
